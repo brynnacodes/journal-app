@@ -6,6 +6,6 @@ $(document).ready(function() {
     var newPost = $('#entry').val();
     console.log(newPost);
     var newEntry = new Entry(newPost);
-    $('#posted-entries').append("<li>" + newPost + "</li>");
+    $('#posted-entries').append('<li class="post">' + newPost + '</li>');
   });
 });
